@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "NZD_HKD",
+  "granularity": "D",
+  "chunk_start": "2020-01-01",
+  "chunk_end": "2029-12-31",
+  "parquet_file": "OANDA_NZDHKD_NZDHKD_D_2020-01-01_to_2029-12-31.parquet",
+  "data_file": "OANDA_NZDHKD_NZDHKD_D_2020-01-01_to_2029-12-31.parquet",
+  "row_count": 1764,
+  "first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 5.24176,
+    "high": 5.252,
+    "low": 5.20754,
+    "close": 5.21752,
+    "volume": 21589
+  },
+  "last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 4.38927,
+    "high": 4.42165,
+    "low": 4.38483,
+    "close": 4.41159,
+    "volume": 64285
+  },
+  "csv_file": "OANDA_NZDHKD_NZDHKD_D_2020-01-01_to_2029-12-31.parquet",
+  "csv_row_count": 1764,
+  "csv_first_candle": {
+    "time": 1577916000,
+    "Time": "2020-01-01T22:00:00.000000000Z",
+    "open": 5.24176,
+    "high": 5.252,
+    "low": 5.20754,
+    "close": 5.21752,
+    "volume": 21589
+  },
+  "csv_last_candle": {
+    "time": 1792011600,
+    "Time": "2026-10-14T21:00:00.000000000Z",
+    "open": 4.38927,
+    "high": 4.42165,
+    "low": 4.38483,
+    "close": 4.41159,
+    "volume": 64285
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-16T00:54:30.000000000Z",
+  "generated_at": "2026-10-16T00:54:30.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2008-06-07T21:00:00Z",
+        "to": "2022-02-14T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-02-14T21:00:00Z",
+        "to": "2026-10-15T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
